@@ -1,0 +1,7 @@
+id,Association,Case_Description,Type
+1,Sleep,less sleep,lifestyle
+2,Exercise,more exercise,lifestyle
+3,Weight loss,more weight lost,lifestyle
+4,Obesity,obese,clinical condition
+5,BMI,larger bmi,physical measurement
+6,Diet,low calories / better diet,lifestyle

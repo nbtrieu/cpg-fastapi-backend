@@ -1,0 +1,2 @@
+Taxon,Rank,DOID,Article DOI,Occurrences,Has Direction,Direction,Mean Abundance,Correlation Coefficent,p Value,q Value
+Akkermansia muciniphila,species,DOID:5419,10.1038/s41467-020-15457-9,2,TRUE,positive,3.30E-03,,7.09E-28,0.004700362

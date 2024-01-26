@@ -1,0 +1,19 @@
+"id","Association","Case_Description"
+1,Sleep,less sleep
+2,Exercise,more exercise
+3,Weight loss,more weight lost
+4,Obesity,obese
+5,BMI,larger bmi
+6,Diet,low calories / better diet
+7,Diet/exercise,improved diet and exercise
+8,Diabetes,glycemic traits
+9,Inflammation,presence of inflammation
+10,Crohn's disease,presence of crohn's
+11,Breast cancer,presence of breast cancer
+12,Lymphatic-hematopoietic cancer,presence of lymphatic-hematopoietic cancer
+13,Solid cancer,presence of solid cancer
+14,Chemotherapy,exposure to chemotherapy
+15,Radiation therapy,exposure to radiation therapy
+16,Lung cancer,presence of breast cancer
+17,Bodyweight,higher bodyweight
+18,Hunger,increased hunger
