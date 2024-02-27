@@ -21,11 +21,9 @@ app.add_middleware(
 
 
 def run_gremlin_in_thread(g, microbe_df):
-    # Create a new event loop for this thread
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
 
-    # Now, run the Gremlin queries
     try:
         add_edges_microbes_diseases(g, microbe_df)
     finally:
@@ -46,10 +44,6 @@ async def app_startup():
     )
     print('NODE COUNT:', node_count)
     print('NODE PROPERTIES:', node_properties)
-
-# @app.on_event("startup")
-# async def startup():
-#     database_connection.init_gremlin_client()
 
 
 @app.on_event("shutdown")
