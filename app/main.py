@@ -33,8 +33,10 @@ def run_gremlin_in_thread(g, microbe_df):
 @app.on_event("startup")
 async def app_startup():
     # Async operations that should be run when the app starts
-    g = database_connection.init_gremlin_client()
-    # g = database_connection.get_gremlin_client()
+    # For Neptune:
+    # g = database_connection.init_gremlin_client()
+    # For local server:
+    g = database_connection.get_gremlin_client()
     global node_count
     node_count = await asyncio.to_thread(
         count_nodes_in_db, g, 'disease'

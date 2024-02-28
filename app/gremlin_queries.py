@@ -356,7 +356,6 @@ def add_microbes(g: GraphTraversalSource, microbe_df: pd.DataFrame):
 
     query_executor.force_execute()
 
-    # Retrieve all 'cpg' vertex IDs and map them to their internal IDs
     microbe_node_list = (
         g.V()
         .has_label("microbe")
@@ -393,7 +392,6 @@ def add_diseases(g: GraphTraversalSource, disease_df: pd.DataFrame):
 
     query_executor.force_execute()
 
-    # Retrieve all 'cpg' vertex IDs and map them to their internal IDs
     disease_node_list = (
         g.V()
         .has_label("disease")
